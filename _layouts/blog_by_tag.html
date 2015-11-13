@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<div class="home">
+  <article class="feature-image" >
+  	<div style="background-image: url('{{ site.baseurl }}/{{ site.theme.place_holder_image }}')"/>
+  	<header style="background-image: url('{{ site.imageurl }}')">
+    <h1 class="call-out-title">{{ page.tag }}</h1>
+    </header>
+  </article>
+
+<div class="posts">
+    {% if site.tags[page.tag] %}
+        {% for post in site.tags[page.tag] %}
+            {% include post_tags_category.html %}			
+			<div class="post-teaser">
+		  <header>
+		    <h1>
+            <a id="post-link-trans" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+		        {{ post.title }}
+		      </a>
+		    </h1>
+		    <p id="subtitletrans" class="subtitlecontainer">
+		      <a class="subtitle">{{ post.date | date: "%B %d, %Y" }}</a>
+		      {% if post.author %} | <a class="subtitle" href="{{ site.baseurl }}/about/">{{ post.author }}</a>{% endif %}
+		      {% if post.category and post.tags %} | <a class="subtitle">{{ category_content }}</a> <a class="subtitle">{{ tags_content }}</a>{% endif %}
+		    </p>
+		  </header>
+		  <div class="excerpt">
+		  {% assign num = post.content | number_of_words %}
+		  {% if  num  < site.theme.visiblewords %}
+		    {{ post.content }}
+		  {% else %}
+		    {{ post.content | truncatewords: 400 }}
+		    <p>
+		    <a class="text" href="{{ post.url | prepend: site.baseurl }}">
+		      {{ site.theme.str_continue_reading }}
+		    </a>
+		    </p>
+		  {% endif %}
+		  </div>
+		</div>
+        {% endfor %}
+
+    {% else %}
+        <p>There are no posts for this tag.</p>
+    {% endif %}
+</div>
+
+</div>

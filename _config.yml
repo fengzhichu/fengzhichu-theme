@@ -1,0 +1,84 @@
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://yoursite.com" # the base hostname & protocol for your site
+imageurl: "https://source.unsplash.com/category/nature/2600x500" #"https://unsplash.it/2600/500?random"
+
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: YOUR TITLE
+  #avatar: avatar.png
+  hometitle: Home #display on navigation menu.
+  yoursitetitle: YOUR LOGO
+  gravatar: # Email MD5 hash
+  description: "used by search engines" # used by search engines
+  visiblewords: 500
+  # Header and footer text
+  header_text: >
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  header_text_feature_image: img/sample_feature_img.png
+  place_holder_image: img/sample_feature_img.png
+  footer_text: >
+   <a href="https://yoursite.com">YOUR TITLE</a> 
+
+  # Icons
+  rss: false
+  email_address: "sam@example.com" # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github: "github"
+  weibo: 
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest: 
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "twitter"
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  #str_next: "Next"
+  #str_prev: "Prev"
+  str_continue_reading: "Continue Reading..."
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+  
+  # Post navigation
+  post_navigation: false
+
+# PAGINATION
+enforce_ssl: "fengzhichu.com"
+paginate: 5
+paginate_path: "blog/page:num"
+permalink: blog/:title/
+
+# Posted in ... with ...
+sechby: 
+  category:   #in
+  tag:   #with
+
+# BUILD SETTINGS
+markdown: redcarpet
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed

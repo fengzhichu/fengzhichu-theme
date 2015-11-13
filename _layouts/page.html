@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="feature-image">
+  	<div style="background-image: url('{{ site.baseurl }}/{{ site.theme.place_holder_image }}')"/>
+  	<header style="background-image: url('{{ site.imageurl }}')">
+    <h1 class="call-out-title">{{ page.title }}</h1>
+    </header>
+</article>
+
+<article>
+	<section class="post-content">{{ content }}</section>
+</article>
+<!--article {% if page.feature-img %}class="feature-image"{% endif %}>
+  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+    <h1 class="call-out-title">{{ page.title }}</h1>
+  </header>
+  <section class="post-content">{{ content }}</section>
+</article-->

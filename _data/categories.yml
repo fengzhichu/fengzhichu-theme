@@ -1,0 +1,10 @@
+- slug: ios
+  name: iOS
+#  color: '#3498db'
+  
+- slug: design
+  name: Design
+#  color: '#1abc9c'
+
+- slug: other
+  name: Other
