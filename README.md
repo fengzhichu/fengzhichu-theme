@@ -8,22 +8,61 @@ hosted in [Github pages](https://pages.github.com/).
 [Fengzhichu Theme Live Demo](https://fengzhichu.com)
 
 ## Screenshots
-![Fengzhichu Theme](https://fengzhichu.github.com/fengzhichu-theme/img/Screenshot.png)
+![Fengzhichu Theme](https://github.com/fengzhichu/fengzhichu-theme/img/Screenshot.png)
 
 ## How to use it
-* Fork the repo.
-*
-*
+* Fork the repo(https://github.com/fengzhichu/fengzhichu-theme).
+* Rename repo as 'yourusername.github.io'.
+* Custom the '_config.yml' to your style.
+* run jekyll serve -w.
 
 ## Customization
 
 ###_config.yml
+Some important configurations.
+* imageurl: Randomly change image which display on top of site.
+  * By default image changes everytime when open your site or reflash it. If you want to change image daily or weekly, just append '/daily' or 'weekly' to imageurl.
+* title: Display on browse tab.
+* hometitle: The first menu name of navigation bar.
+* yoursitetitle: Your LOGO place here.
+* visiblewords: Number of words which you want to display in post of homepage.
+* sechby:
+  * category: "Posted in" #Words before Category name.
+  * tag: "with" #Words before Tag name.
+  * example: Posted in 'Category name' with 'Tag name'.
 
 ###Tags
+Add new tag.
+1. Annotate your post entry front-matter block as usual:
+```
+---
+layout: post
+title: How To Use Tags And Categories On GitHub Pages Without Plugins
+category: programming
+tags: [github, github-pages, jekyll]
+---
+```
+2. Add an entry in your _data/tags.yml for every tag.
+```
+- slug: github-pages
+  name: GitHub Pages
+```
+3. Create a .md file which name is your Tag slug for every tag.
+```
+---
+layout: blog_by_tag
+tag: github-pages
+permalink: /blog/tag/github-pages/
+---
+```
 
 ###Categories
+Similar as Tag.
 
 ## Thanks
+* Theme template: type-theme(https://github.com/rohanchandra/type-theme)
+* Navigation bar: ibireme's blog(http://blog.ibireme.com)
+* Features of Tag and Category: HOW TO USE TAGS AND CATEGORIES ON GITHUB PAGES WITHOUT PLUGINS(http://www.minddust.com/post/tags-and-categories-on-github-pages/)
 
 ## Copyright & License
 Copyright (C) 2015 - Released under the MIT License.
