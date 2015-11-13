@@ -8,10 +8,13 @@ hosted in [Github pages](https://pages.github.com/).
 [Fengzhichu Theme Live Demo](https://fengzhichu.com)
 
 ## Screenshots
-![Fengzhichu Theme](img/Screenshot.png)
+![Home page](img/Screenshot1.png)
+![Pst page](img/Screenshot2.png)
+![Archive page](img/Screenshot3.png)
+![Category page](img/Screenshot4.png)
 
 ## How to use it
-* Fork the repo(https://github.com/fengzhichu/fengzhichu-theme).
+* Fork the [repo](https://github.com/fengzhichu/fengzhichu-theme).
 * Rename repo as 'yourusername.github.io'.
 * Custom the '_config.yml' to your style.
 * run jekyll serve -w.
@@ -34,7 +37,7 @@ Some important configurations.
 ###Tags
 Add new tag.
 * Annotate your post entry front-matter block as usual:
-  ```ruby
+  ```
   ---
   layout: post
   title: How To Use Tags And Categories On GitHub Pages Without Plugins
@@ -43,12 +46,12 @@ Add new tag.
   ---
   ```
 * Add an entry in your _data/tags.yml for every tag.
-  ```ruby
+  ```
   - slug: github-pages
     name: GitHub Pages
   ```
 * Create a .md file which name is your Tag slug for every tag.
-  ```ruby
+  ```
   ---
   layout: blog_by_tag
   tag: github-pages
@@ -60,9 +63,9 @@ Add new tag.
 Similar as Tag.
 
 ## Thanks
-* Theme template: type-theme(https://github.com/rohanchandra/type-theme)
-* Navigation bar: ibireme's blog(http://blog.ibireme.com)
-* Features of Tag and Category: HOW TO USE TAGS AND CATEGORIES ON GITHUB PAGES WITHOUT PLUGINS(http://www.minddust.com/post/tags-and-categories-on-github-pages/)
+* Theme template: [type-theme](https://github.com/rohanchandra/type-theme)
+* Navigation bar: [ibireme's blog](http://blog.ibireme.com)
+* Features of Tag and Category: [HOW TO USE TAGS AND CATEGORIES ON GITHUB PAGES WITHOUT PLUGINS](http://www.minddust.com/post/tags-and-categories-on-github-pages/)
 
 ## Copyright & License
 Copyright (C) 2015 - Released under the MIT License.
