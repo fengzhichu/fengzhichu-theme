@@ -36,9 +36,11 @@ Some important configurations.
   * example: Posted in 'Category name' with 'Tag name'.
 
 ###Tags
-Add new tag.
-* Annotate your post entry front-matter block as usual:
-{% highlight ruby %}
+<p>Add new tag.</p>
+
+  ◆ Annotate your post entry front-matter block as usual:
+<ul>
+{% highlight ruby linenos %}
 ---
 layout: post
 title: How To Use Tags And Categories On GitHub Pages Without Plugins
@@ -46,21 +48,26 @@ category: programming
 tags: [github, github-pages, jekyll]
 ---
 {% endhighlight %}
+</ul>
 
-* Add an entry in your _data/tags.yml for every tag.
-{% highlight ruby %}
+  ◆ Add an entry in your _data/tags.yml for every tag.
+<ul>
+{% highlight ruby linenos %}
 - slug: github-pages
   name: GitHub Pages
 {% endhighlight %}
+</ul>
 
-* Create a .md file which name is your Tag slug for every tag.
-{% highlight ruby %}
+  ◆ Create a .md file which name is your Tag slug for every tag.
+<ul>
+{% highlight ruby linenos %}
 ---
 layout: blog_by_tag
 tag: github-pages
 permalink: /blog/tag/github-pages/
 ---
 {% endhighlight %}
+</ul>
 
 ###Categories
 Similar as Tag.
