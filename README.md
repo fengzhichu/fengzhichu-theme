@@ -12,6 +12,7 @@ hosted in [Github pages](https://pages.github.com/).
 ![Pst page](img/Screenshot2.png)
 ![Archive page](img/Screenshot3.png)
 ![Category page](img/Screenshot4.png)
+![About page](img/Screenshot5.png)
 
 ## How to use it
 * Fork the [repo](https://github.com/fengzhichu/fengzhichu-theme).
