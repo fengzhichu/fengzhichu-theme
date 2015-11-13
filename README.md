@@ -37,26 +37,26 @@ Some important configurations.
 ###Tags
 Add new tag.
 * Annotate your post entry front-matter block as usual:
-  ```
-  ---
-  layout: post
-  title: How To Use Tags And Categories On GitHub Pages Without Plugins
-  category: programming
-  tags: [github, github-pages, jekyll]
-  ---
-  ```
+```yml
+---
+layout: post
+title: How To Use Tags And Categories On GitHub Pages Without Plugins
+category: programming
+tags: [github, github-pages, jekyll]
+---
+```
 * Add an entry in your _data/tags.yml for every tag.
-  ```
-  - slug: github-pages
-    name: GitHub Pages
-  ```
+```yml
+- slug: github-pages
+  name: GitHub Pages
+```
 * Create a .md file which name is your Tag slug for every tag.
-  ```
-  ---
-  layout: blog_by_tag
-  tag: github-pages
-  permalink: /blog/tag/github-pages/
-  ---
+```yml
+---
+layout: blog_by_tag
+tag: github-pages
+permalink: /blog/tag/github-pages/
+---
   ```
 
 ###Categories
@@ -66,6 +66,10 @@ Similar as Tag.
 * Theme template: [type-theme](https://github.com/rohanchandra/type-theme)
 * Navigation bar: [ibireme's blog](http://blog.ibireme.com)
 * Features of Tag and Category: [HOW TO USE TAGS AND CATEGORIES ON GITHUB PAGES WITHOUT PLUGINS](http://www.minddust.com/post/tags-and-categories-on-github-pages/)
+
+## Enjoy
+- If you like, please star it. Thank you!
+- Enjoy it!
 
 ## Copyright & License
 Copyright (C) 2015 - Released under the MIT License.
