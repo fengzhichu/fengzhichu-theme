@@ -8,7 +8,7 @@ hosted in [Github pages](https://pages.github.com/).
 [Fengzhichu Theme Live Demo](https://fengzhichu.com)
 
 ## Screenshots
-![Fengzhichu Theme](https://github.com/fengzhichu/fengzhichu-theme/img/Screenshot.png)
+![Fengzhichu Theme](img/Screenshot.png)
 
 ## How to use it
 * Fork the repo(https://github.com/fengzhichu/fengzhichu-theme).
@@ -33,28 +33,28 @@ Some important configurations.
 
 ###Tags
 Add new tag.
-1. Annotate your post entry front-matter block as usual:
-```
----
-layout: post
-title: How To Use Tags And Categories On GitHub Pages Without Plugins
-category: programming
-tags: [github, github-pages, jekyll]
----
-```
-2. Add an entry in your _data/tags.yml for every tag.
-```
-- slug: github-pages
-  name: GitHub Pages
-```
-3. Create a .md file which name is your Tag slug for every tag.
-```
----
-layout: blog_by_tag
-tag: github-pages
-permalink: /blog/tag/github-pages/
----
-```
+* Annotate your post entry front-matter block as usual:
+  ```ruby
+  ---
+  layout: post
+  title: How To Use Tags And Categories On GitHub Pages Without Plugins
+  category: programming
+  tags: [github, github-pages, jekyll]
+  ---
+  ```
+* Add an entry in your _data/tags.yml for every tag.
+  ```ruby
+  - slug: github-pages
+    name: GitHub Pages
+  ```
+* Create a .md file which name is your Tag slug for every tag.
+  ```ruby
+  ---
+  layout: blog_by_tag
+  tag: github-pages
+  permalink: /blog/tag/github-pages/
+  ---
+  ```
 
 ###Categories
 Similar as Tag.
