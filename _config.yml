@@ -70,7 +70,7 @@ theme:
 enforce_ssl: "fengzhichu.com"
 paginate: 5
 paginate_path: "blog/page:num"
-permalink: fengzhichu-theme/blog/:title/  #Delete preurl 'fengzhichu-theme/' if used for your personal site. Same as design.md / ios.md ... , which are in category and tag directories.
+permalink: fengzhichu-theme/blog/:title/  #Delete preurl 'fengzhichu-theme/' if used for your personal site.
 
 # Posted in ... with ...
 sechby: 
