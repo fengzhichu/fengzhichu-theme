@@ -67,6 +67,7 @@ Similar as Tag.
 * Theme template: [type-theme](https://github.com/rohanchandra/type-theme)
 * Navigation bar: [ibireme's blog](http://blog.ibireme.com)
 * Features of Tag and Category: [HOW TO USE TAGS AND CATEGORIES ON GITHUB PAGES WITHOUT PLUGINS](http://www.minddust.com/post/tags-and-categories-on-github-pages/)
+* Image source: [Unsplash](https://unsplash.com)
 
 ## Enjoy
 - If you like, please star it. Thank you!
