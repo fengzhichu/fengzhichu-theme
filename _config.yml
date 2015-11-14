@@ -70,7 +70,7 @@ theme:
   post_navigation: false
 
 # PAGINATION
-enforce_ssl: "fengzhichu.com/fengzhichu-theme"
+enforce_ssl: "fengzhichu.com"
 paginate: 5
 paginate_path: "blog/page:num"
 permalink: blog/:title/
