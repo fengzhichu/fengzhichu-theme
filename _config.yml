@@ -66,7 +66,7 @@ theme:
   post_navigation: false
 
 # PAGINATION
-enforce_ssl: "fengzhichu.com"
+enforce_ssl: "fengzhichu.com/fengzhichu-theme"
 paginate: 5
 paginate_path: "blog/page:num"
 permalink: blog/:title/
