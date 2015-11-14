@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/fengzhichu-theme" # the subpath of your site, e.g. /blog/
+baseurl: "/fengzhichu-theme" # set it to "/" if use for personal site. The subpath of your site, e.g. /blog/
 url: "https://fengzhichu.com/fengzhichu-theme" # the base hostname & protocol for your site
 imageurl: "https://source.unsplash.com/category/nature/2600x500" #"https://unsplash.it/2600/500?random"
 
