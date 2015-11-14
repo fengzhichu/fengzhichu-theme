@@ -59,7 +59,7 @@ layout: default
 	        {% if count == paginator.page %}
 	          <span class="current">{{ count }}</span>
 	        {% else %}
-	          <a class="page larger" href="/blog/page{{ count }}">{{ count }}</a>
+	          <a class="page larger" href="{{ site.baseurl }}/blog/page{{ count }}">{{ count }}</a>
 	        {% endif %}
 	    {% endfor %}
 

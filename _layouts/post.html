@@ -5,7 +5,7 @@ layout: default
 {% include post_tags_category.html %}
 
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
-  <header style="background-image: url('{{ page.feature-img }}')">
+  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
 
 <!--article {% if page.feature-img %}class="feature-image"{% endif %} >
   <div style="background-image: url('{{ site.baseurl }}/{{ page.feature-image }}')"/>
