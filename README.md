@@ -5,7 +5,7 @@ hosted in [Github pages](https://pages.github.com/).
 
 ## Check the live demo
 
-[Fengzhichu Theme Live Demo](https://fengzhichu.com/fengzhichu-theme/)
+[Fengzhichu Theme Live Demo](https://fengzhichu.com)
 
 ## Screenshots
 ![Home page](img/Screenshot1.png)
