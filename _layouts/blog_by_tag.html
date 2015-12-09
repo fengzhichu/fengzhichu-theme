@@ -31,7 +31,7 @@ layout: default
 		  {% if  num  < site.theme.visiblewords %}
 		    {{ post.content }}
 		  {% else %}
-		    {{ post.content | truncatewords: 400 }}
+		    {{ post.content | truncatewords: site.theme.visiblewords }}
 		    <p>
 		    <a class="text" href="{{ post.url | prepend: site.baseurl }}">
 		      {{ site.theme.str_continue_reading }}
@@ -43,7 +43,11 @@ layout: default
         {% endfor %}
 
     {% else %}
-        <p>There are no posts for this tag.</p>
+        <div class="post-teaser">
+			<header>
+        		<h4>There are no posts for this category.</h4>
+        	</header>
+		</div>
     {% endif %}
 </div>
 

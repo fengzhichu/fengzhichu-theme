@@ -1,0 +1,16 @@
+/*
+Theme Name: Divi
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Version: 2.5.3
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Main Theme Styles */
+@import url("./main-styles.css");
+
+/* Page Builder Modules Styles */
+@import url("./frontend-builder-style.css");

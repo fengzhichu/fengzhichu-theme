@@ -1,6 +1,5 @@
 # SITE CONFIGURATION
 baseurl: "/fengzhichu-theme" # set it to "/" if use for personal site. The subpath of your site, e.g. /blog/
-baseurl: "/fengzhichu-theme" # the subpath of your site, e.g. /blog/
 url: "https://fengzhichu.com/fengzhichu-theme" # the base hostname & protocol for your site
 imageurl: "https://source.unsplash.com/category/nature/2600x500" #"https://unsplash.it/2600/500?random"
 
@@ -13,7 +12,7 @@ theme:
   yoursitetitle: YOUR LOGO
   gravatar: # Email MD5 hash
   description: "used by search engines" # used by search engines
-  visiblewords: 500
+  visiblewords: 300
   # Header and footer text
   header_text: >
      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -62,7 +61,7 @@ theme:
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-  
+
   # Post navigation
   post_navigation: false
 
@@ -83,3 +82,6 @@ highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed
+
+gems:
+  - jekyll-paginate
