@@ -69,7 +69,7 @@ theme:
 enforce_ssl: "fengzhichu.com"
 paginate: 5
 paginate_path: "blog/page:num"
-permalink: fengzhichu-theme/blog/:title/  #Delete preurl 'fengzhichu-theme/' if used for your personal site.
+permalink: blog/:title/ 
 
 # Posted in ... with ...
 sechby: 
