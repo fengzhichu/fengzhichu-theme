@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Archive
-permalink: /archives/
+permalink: /Archives/
 ---
 <section id="archive">
   {%for post in site.posts %} 
@@ -17,7 +17,7 @@ permalink: /archives/
         <ul class="past">
       {% endif %}
     {% endunless %}
-      <li><time>{{ post.date | date:"%b %-d" }}</time><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><time>{{ post.date | date:"%m月%d日 " }}</time><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
 </section>

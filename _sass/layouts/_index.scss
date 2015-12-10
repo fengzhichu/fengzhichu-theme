@@ -42,7 +42,7 @@
     margin-bottom: 0;
     display: inline-block;
     background-size: $feature-image-size;
-    border-bottom: 1px solid $border-color;
+    border-top: 1px solid $border-color;
     p a:hover {
       @extend %link-hover;
     }

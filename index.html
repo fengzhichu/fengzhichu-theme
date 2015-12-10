@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="home">
-  <article class="feature-image" >
+  <article class="home-feature-image" >
   <div style="background-image: url('{{ site.baseurl }}/{{ site.theme.place_holder_image }}')"/>
   <header style="background-image: url('{{ site.imageurl }}')">
     <p class="call-out-content"> {{ site.theme.header_text }} </p>
@@ -20,7 +20,7 @@ layout: default
 		      </a>
 		    </h1>
 		    <p id="subtitletrans" class="subtitlecontainer">
-		      <a class="subtitle">{{ post.date | date: "%B %d, %Y" }}</a>
+		      <a class="subtitle">{{ post.date | date: "%Y年%m月%-d日" }}</a>
 		      {% if post.author %} | <a class="subtitle" href="{{ site.baseurl }}/about/">{{ post.author }}</a>{% endif %}
 		      {% if post.category and post.tags %} | <a class="subtitle">{{ category_content }}</a> <a class="subtitle">{{ tags_content }}</a>{% endif %}
 		    </p>
@@ -30,7 +30,7 @@ layout: default
 		  {% if  num  < site.theme.visiblewords %}
 		    {{ post.content }}
 		  {% else %}
-		    {{ post.content | truncatewords: 400 }}
+		    {{ post.content | truncatewords: site.theme.visiblewords }}
 		    <p>
 		    <a class="text" href="{{ post.url | prepend: site.baseurl }}">
 		      {{ site.theme.str_continue_reading }}
@@ -43,7 +43,7 @@ layout: default
 	</div>
 
 	<div class="wp-pagenavi">
-	    <!--span class='pages'>第 {{ paginator.page }} 页，共 {{ paginator.total_pages }} 页</span-->
+	    <span class='pages'>第 {{ paginator.page }} 页，共 {{ paginator.total_pages }} 页</span>
 
 	    {% if paginator.previous_page %}
 	    	<a class="previouspostslink" rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" > « </a>

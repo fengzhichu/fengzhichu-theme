@@ -33,7 +33,7 @@
 	<link href="/fengzhichu-theme/favicon.ico" mce_href="favicon.ico" rel="icon" type="image/x-icon" /> 
 	<link href="/fengzhichu-theme/favicon.ico" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
 	<!-- Canonical -->
-	<link rel="canonical" href="https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/about/">
+	<link rel="canonical" href="https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/About/">
 
 	<!-- RSS -->
 	<link rel="alternate" type="application/atom+xml" title="YOUR TITLE" href="https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/feed.xml" />
@@ -87,7 +87,7 @@
 					
 					
 					<li>
-						<a class="page-link" href="/fengzhichu-theme/about/">
+						<a class="page-link" href="/fengzhichu-theme/About/">
 							About
 						</a>
 					</li>
@@ -95,7 +95,7 @@
 					
 					
 					<li>
-						<a class="page-link" href="/fengzhichu-theme/archives/">
+						<a class="page-link" href="/fengzhichu-theme/Archives/">
 							Archive
 						</a>
 					</li>
@@ -103,8 +103,8 @@
 					
 					
 					<li>
-						<a class="page-link" href="/fengzhichu-theme/blog/category/design/">
-							Design
+						<a class="page-link" href="/fengzhichu-theme/Design/">
+							设计
 						</a>
 					</li>
 					
@@ -121,8 +121,8 @@
 					
 					
 					<li>
-						<a class="page-link" href="/fengzhichu-theme/blog/category/ios/">
-							iOS
+						<a class="page-link" href="/fengzhichu-theme/iOS/">
+							iOS开发
 						</a>
 					</li>
 					
@@ -133,8 +133,8 @@
 					
 					
 					<li>
-						<a class="page-link" href="/fengzhichu-theme/blog/category/other/">
-							Other
+						<a class="page-link" href="/fengzhichu-theme/Other/">
+							其他
 						</a>
 					</li>
 					
@@ -234,208 +234,22 @@
 </article>
 
 <article>
-	<section class="post-content"><h1>Fengzhichu Theme</h1>
+	<section class="post-content"><p>Type Theme is a free and open-source theme for <a href="http://jekyllrb.com/">Jekyll</a>, licensed under the MIT License.</p>
 
-<p>A jekyll theme for personal blog which based on <a href="https://github.com/rohanchandra/type-theme">Type theme</a> and <a href="http://blog.ibireme.com">ibireme&#39;s blog</a>. Add several useful features. Fengzhichu Theme is powered by <a href="http://jekyllrb.com/">Jekyll</a> and freely
-hosted in <a href="https://pages.github.com/">Github pages</a>.</p>
+<p>Head over to the <a href="https://rohanchandra.github.io/project/type/">theme&#39;s documentation</a> for much more information about Type Theme or to install this theme on your own Jekyll site.</p>
 
-<h2>Check the live demo</h2>
-
-<p><a href="https://fengzhichu.com">Fengzhichu Theme Live Demo</a></p>
-
-<h2>How to use it</h2>
-
-<ul>
-<li>Fork the <a href="https://github.com/fengzhichu/fengzhichu-theme">repo</a>.</li>
-<li>Rename repo as &#39;yourusername.github.io&#39;.</li>
-<li>Custom the &#39;_config.yml&#39; to your style.</li>
-<li>run jekyll serve -w.</li>
-</ul>
-
-<h2>Customization</h2>
-
-<h3>_config.yml</h3>
-
-<p>Some important configurations.
-* imageurl: Randomly change image which display on top of site.
-  * By default image changes everytime when open your site or reflash it. If you want to change image daily or weekly, just append &#39;/daily&#39; or &#39;weekly&#39; to imageurl.
-* title: Display on browse tab.
-* hometitle: The first menu name of navigation bar.
-* yoursitetitle: Your LOGO place here.
-* visiblewords: Number of words which you want to display in post of homepage.
-* sechby:
-  * category: &quot;Posted in&quot; #Words before Category name.
-  * tag: &quot;with&quot; #Words before Tag name.
-  * example: Posted in &#39;Category name&#39; with &#39;Tag name&#39;.</p>
-
-<h3>Tags</h3>
-
-<p>Add new tag.</p>
-
-<p>◆ Annotate your post entry front-matter block as usual:
-<ul></p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="o">---</span>
-<span class="lineno">2</span> <span class="ss">layout</span><span class="p">:</span> <span class="n">post</span>
-<span class="lineno">3</span> <span class="ss">title</span><span class="p">:</span> <span class="no">How</span> <span class="no">To</span> <span class="no">Use</span> <span class="no">Tags</span> <span class="no">And</span> <span class="no">Categories</span> <span class="no">On</span> <span class="no">GitHub</span> <span class="no">Pages</span> <span class="no">Without</span> <span class="no">Plugins</span>
-<span class="lineno">4</span> <span class="ss">category</span><span class="p">:</span> <span class="n">programming</span>
-<span class="lineno">5</span> <span class="ss">tags</span><span class="p">:</span> <span class="o">[</span><span class="n">github</span><span class="p">,</span> <span class="n">github</span><span class="o">-</span><span class="n">pages</span><span class="p">,</span> <span class="n">jekyll</span><span class="o">]</span>
-<span class="lineno">6</span> <span class="o">---</span></code></pre></figure>
-
-<p></ul></p>
-
-<p>◆ Add an entry in your _data/tags.yml for every tag.
-<ul></p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="o">-</span> <span class="ss">slug</span><span class="p">:</span> <span class="n">github</span><span class="o">-</span><span class="n">pages</span>
-<span class="lineno">2</span>   <span class="nb">name</span><span class="p">:</span> <span class="no">GitHub</span> <span class="no">Pages</span></code></pre></figure>
-
-<p></ul></p>
-
-<p>◆ Create a .md file which name is your Tag slug for every tag.
-<ul></p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="o">---</span>
-<span class="lineno">2</span> <span class="ss">layout</span><span class="p">:</span> <span class="n">blog_by_tag</span>
-<span class="lineno">3</span> <span class="ss">tag</span><span class="p">:</span> <span class="n">github</span><span class="o">-</span><span class="n">pages</span>
-<span class="lineno">4</span> <span class="ss">permalink</span><span class="p">:</span> <span class="sr">/blog/</span><span class="n">tag</span><span class="o">/</span><span class="n">github</span><span class="o">-</span><span class="n">pages</span><span class="o">/</span>
-<span class="lineno">5</span> <span class="o">---</span></code></pre></figure>
-
-<p></ul></p>
-
-<h3>Categories</h3>
-
-<p>Similar as Tag.</p>
-
-<h2>Thanks</h2>
-
-<ul>
-<li>Theme template: <a href="https://github.com/rohanchandra/type-theme">type-theme</a></li>
-<li>Navigation bar: <a href="http://blog.ibireme.com">ibireme&#39;s blog</a></li>
-<li>Features of Tag and Category: <a href="http://www.minddust.com/post/tags-and-categories-on-github-pages/">HOW TO USE TAGS AND CATEGORIES ON GITHUB PAGES WITHOUT PLUGINS</a></li>
-</ul>
-
-<h2>Enjoy</h2>
-
-<ul>
-<li>If you like, please star it. Thank you!</li>
-<li>Enjoy it!</li>
-</ul>
-
-<h2>Copyright &amp; License</h2>
-
-<p>Copyright (C) 2015 - Released under the MIT License.</p>
-
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-
-<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-
-<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </p>
+<p>This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.</p>
 </section>
 </article>
 <!--article class="feature-image">
   <header style="background-image: url('/fengzhichu-theme/img/sample_feature_img_2.png')">
     <h1 class="call-out-title">About</h1>
   </header>
-  <section class="post-content"><h1>Fengzhichu Theme</h1>
+  <section class="post-content"><p>Type Theme is a free and open-source theme for <a href="http://jekyllrb.com/">Jekyll</a>, licensed under the MIT License.</p>
 
-<p>A jekyll theme for personal blog which based on <a href="https://github.com/rohanchandra/type-theme">Type theme</a> and <a href="http://blog.ibireme.com">ibireme&#39;s blog</a>. Add several useful features. Fengzhichu Theme is powered by <a href="http://jekyllrb.com/">Jekyll</a> and freely
-hosted in <a href="https://pages.github.com/">Github pages</a>.</p>
+<p>Head over to the <a href="https://rohanchandra.github.io/project/type/">theme&#39;s documentation</a> for much more information about Type Theme or to install this theme on your own Jekyll site.</p>
 
-<h2>Check the live demo</h2>
-
-<p><a href="https://fengzhichu.com">Fengzhichu Theme Live Demo</a></p>
-
-<h2>How to use it</h2>
-
-<ul>
-<li>Fork the <a href="https://github.com/fengzhichu/fengzhichu-theme">repo</a>.</li>
-<li>Rename repo as &#39;yourusername.github.io&#39;.</li>
-<li>Custom the &#39;_config.yml&#39; to your style.</li>
-<li>run jekyll serve -w.</li>
-</ul>
-
-<h2>Customization</h2>
-
-<h3>_config.yml</h3>
-
-<p>Some important configurations.
-* imageurl: Randomly change image which display on top of site.
-  * By default image changes everytime when open your site or reflash it. If you want to change image daily or weekly, just append &#39;/daily&#39; or &#39;weekly&#39; to imageurl.
-* title: Display on browse tab.
-* hometitle: The first menu name of navigation bar.
-* yoursitetitle: Your LOGO place here.
-* visiblewords: Number of words which you want to display in post of homepage.
-* sechby:
-  * category: &quot;Posted in&quot; #Words before Category name.
-  * tag: &quot;with&quot; #Words before Tag name.
-  * example: Posted in &#39;Category name&#39; with &#39;Tag name&#39;.</p>
-
-<h3>Tags</h3>
-
-<p>Add new tag.</p>
-
-<p>◆ Annotate your post entry front-matter block as usual:
-<ul></p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="o">---</span>
-<span class="lineno">2</span> <span class="ss">layout</span><span class="p">:</span> <span class="n">post</span>
-<span class="lineno">3</span> <span class="ss">title</span><span class="p">:</span> <span class="no">How</span> <span class="no">To</span> <span class="no">Use</span> <span class="no">Tags</span> <span class="no">And</span> <span class="no">Categories</span> <span class="no">On</span> <span class="no">GitHub</span> <span class="no">Pages</span> <span class="no">Without</span> <span class="no">Plugins</span>
-<span class="lineno">4</span> <span class="ss">category</span><span class="p">:</span> <span class="n">programming</span>
-<span class="lineno">5</span> <span class="ss">tags</span><span class="p">:</span> <span class="o">[</span><span class="n">github</span><span class="p">,</span> <span class="n">github</span><span class="o">-</span><span class="n">pages</span><span class="p">,</span> <span class="n">jekyll</span><span class="o">]</span>
-<span class="lineno">6</span> <span class="o">---</span></code></pre></figure>
-
-<p></ul></p>
-
-<p>◆ Add an entry in your _data/tags.yml for every tag.
-<ul></p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="o">-</span> <span class="ss">slug</span><span class="p">:</span> <span class="n">github</span><span class="o">-</span><span class="n">pages</span>
-<span class="lineno">2</span>   <span class="nb">name</span><span class="p">:</span> <span class="no">GitHub</span> <span class="no">Pages</span></code></pre></figure>
-
-<p></ul></p>
-
-<p>◆ Create a .md file which name is your Tag slug for every tag.
-<ul></p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="o">---</span>
-<span class="lineno">2</span> <span class="ss">layout</span><span class="p">:</span> <span class="n">blog_by_tag</span>
-<span class="lineno">3</span> <span class="ss">tag</span><span class="p">:</span> <span class="n">github</span><span class="o">-</span><span class="n">pages</span>
-<span class="lineno">4</span> <span class="ss">permalink</span><span class="p">:</span> <span class="sr">/blog/</span><span class="n">tag</span><span class="o">/</span><span class="n">github</span><span class="o">-</span><span class="n">pages</span><span class="o">/</span>
-<span class="lineno">5</span> <span class="o">---</span></code></pre></figure>
-
-<p></ul></p>
-
-<h3>Categories</h3>
-
-<p>Similar as Tag.</p>
-
-<h2>Thanks</h2>
-
-<ul>
-<li>Theme template: <a href="https://github.com/rohanchandra/type-theme">type-theme</a></li>
-<li>Navigation bar: <a href="http://blog.ibireme.com">ibireme&#39;s blog</a></li>
-<li>Features of Tag and Category: <a href="http://www.minddust.com/post/tags-and-categories-on-github-pages/">HOW TO USE TAGS AND CATEGORIES ON GITHUB PAGES WITHOUT PLUGINS</a></li>
-</ul>
-
-<h2>Enjoy</h2>
-
-<ul>
-<li>If you like, please star it. Thank you!</li>
-<li>Enjoy it!</li>
-</ul>
-
-<h2>Copyright &amp; License</h2>
-
-<p>Copyright (C) 2015 - Released under the MIT License.</p>
-
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-
-<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-
-<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </p>
+<p>This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.</p>
 </section>
 </article-->
 

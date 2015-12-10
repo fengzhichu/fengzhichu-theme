@@ -12,14 +12,18 @@ layout: default
   <header style="background-image: url('{{ site.imageurl }}')"-->
     <h1 class="title">{{ page.title }}</h1>
     <p id="subtitletrans" class="subtitlecontainer">
-    <a class="subtitle">{{ page.date | date: "%B %d, %Y" }}</a>
-    {% if page.author %} | <a class="subtitle" href="{{ site.baseurl }}/about/">{{ page.author }}</a>{% endif %}
+    <a class="subtitle">{{ page.date | date: "%Y年%m月%-d日" }}</a>
+    {% if page.author %} | <a class="subtitle" href="{{ site.baseurl }}/About/">{{ page.author }}</a>{% endif %}
 	{% if post.category and post.tags %} | <a class="subtitle">{{ category_content }}</a> <a class="subtitle">{{ tags_content }}</a>{% endif %}
     </p>
   </header>
   <section class="post-content">
   {{ content }}
+  <p>
+	<font color="#1ABC9C">声明：若文章题目未注明转载，则为原创文章。转载请注明<a href="{{ page.url | prepend: site.baseurl }}">出处</a>，多谢！</font>
+  </p>
   </section>
+  
 </article>
 
 <!-- Post navigation -->
