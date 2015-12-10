@@ -1,0 +1,29 @@
+
+	{% if post.category %}
+	    {% for site_category in site.data.categories %}
+	        {% if site_category.slug == post.category %}
+	            {% assign category = site_category %}
+	        {% endif %}
+	    {% endfor %}
+	    {% if category %}
+	        {% capture category_content %} {{ site.sechby.category }} {{ category.name }} {% endcapture %}
+	    {% endif %}
+	{% else %}
+	    {% assign category_content = '' %}
+	{% endif %}
+
+	{% if post.tags.size > 0 %}
+	    {% for post_tag in post.tags %}
+	        {% for data_tag in site.data.tags %}
+	            {% if data_tag.slug == post_tag %}
+	                {% assign tag = data_tag %}
+	            {% endif %}
+	        {% endfor %}
+	        {% if tag %}
+	            {% capture tags_content_temp %}{{ tags_content }}{{ tag.name }}{% if forloop.last == false %}, {% endif %}{% endcapture %}
+	            {% assign tags_content = tags_content_temp %}
+	        {% endif %}
+	    {% endfor %}
+	{% else %}
+	    {% assign tags_content = '' %}
+	{% endif %}
