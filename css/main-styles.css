@@ -502,7 +502,7 @@ p.woocommerce-result-count { font-weight: 500; font-size: 14px; color: #999; pad
 /* Dropdown Menu */
 #et-top-navigation { float: right; }
 #top-menu li li { padding: 0 20px; margin:0; }
-#top-menu li li a { padding: 6px 20px; width: 200px; }
+#top-menu li li a { padding: 6px 20px;  } //* width: 200px; */
 
 	/* Secondary Navigation */
 	#et-secondary-nav li { position: relative; text-align: right; }
