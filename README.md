@@ -61,7 +61,7 @@ permalink: /blog/tag/github-pages/
   ```
 
 ###Categories
-Similar as Tag.
+Similar as Tags.
 
 ## Thanks
 * Theme template: [type-theme](https://github.com/rohanchandra/type-theme)
