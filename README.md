@@ -15,7 +15,7 @@ hosted in [Github pages](https://pages.github.com/).
 ![About page](img/Screenshot5.png)
 
 ## How to use it
-* Fork the [repo](https://github.com/fengzhichu/fengzhichu-theme).
+* Star & Fork the [repo](https://github.com/fengzhichu/fengzhichu-theme).
 * Rename repo as 'yourusername.github.io'.
 * Custom the '_config.yml' to your style.
 * run jekyll serve -w.
