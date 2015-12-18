@@ -17,8 +17,10 @@ hosted in [Github pages](https://pages.github.com/).
 ## How to use it
 * Star & Fork the [repo](https://github.com/fengzhichu/fengzhichu-theme).
 * Rename repo as 'yourusername.github.io'.
+* You can delete gh-pages branch if you want.
+* Clone your <b>master branch</b> to local directory
 * Custom the '_config.yml' to your style.
-* run jekyll serve -w.
+* Run jekyll serve -w.
 
 ## Customization
 
