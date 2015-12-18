@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /About/
 feature-img: "img/sample_feature_img_2.png"
 ---
 
@@ -10,20 +10,19 @@ feature-img: "img/sample_feature_img_2.png"
 A jekyll theme for personal blog which based on [Type theme](https://github.com/rohanchandra/type-theme) and [ibireme's blog](http://blog.ibireme.com). Add several useful features. Fengzhichu Theme is powered by [Jekyll](http://jekyllrb.com/) and freely
 hosted in [Github pages](https://pages.github.com/).
 
-## Check the live demo
-
-[Fengzhichu Theme Live Demo](https://fengzhichu.com)
-
 ## How to use it
-* Fork the [repo](https://github.com/fengzhichu/fengzhichu-theme).
+* Star & Fork the [repo](https://github.com/fengzhichu/fengzhichu-theme).
 * Rename repo as 'yourusername.github.io'.
+* You can delete gh-pages branch if you want.
+* Clone your <b>master branch</b> to local directory
 * Custom the '_config.yml' to your style.
-* run jekyll serve -w.
+* Run jekyll serve -w.
 
 ## Customization
 
 ###_config.yml
 Some important configurations.
+
 * imageurl: Randomly change image which display on top of site.
   * By default image changes everytime when open your site or reflash it. If you want to change image daily or weekly, just append '/daily' or 'weekly' to imageurl.
 * title: Display on browse tab.
@@ -36,41 +35,38 @@ Some important configurations.
   * example: Posted in 'Category name' with 'Tag name'.
 
 ###Tags
-<p>Add new tag.</p>
+Add new tag.
 
-  ◆ Annotate your post entry front-matter block as usual:
-<ul>
-{% highlight ruby linenos %}
----
-layout: post
-title: How To Use Tags And Categories On GitHub Pages Without Plugins
-category: programming
-tags: [github, github-pages, jekyll]
----
-{% endhighlight %}
-</ul>
+* Annotate your post entry front-matter block as usual:
 
-  ◆ Add an entry in your _data/tags.yml for every tag.
-<ul>
-{% highlight ruby linenos %}
-- slug: github-pages
-  name: GitHub Pages
-{% endhighlight %}
-</ul>
+```
+		---
+		layout: post
+		title: How To Use Tags And Categories On GitHub Pages Without Plugins
+		category: programming
+		tags: [github, github-pages, jekyll]
+		---
+```
 
-  ◆ Create a .md file which name is your Tag slug for every tag.
-<ul>
-{% highlight ruby linenos %}
----
-layout: blog_by_tag
-tag: github-pages
-permalink: /blog/tag/github-pages/
----
-{% endhighlight %}
-</ul>
+* Add an entry in your _data/tags.yml for every tag.
+
+```
+		- slug: github-pages
+		  name: GitHub Pages
+```
+
+* Create a .md file which name is your Tag slug for every tag.
+
+```
+		---
+		layout: blog_by_tag
+		tag: github-pages
+		permalink: /blog/tag/github-pages/
+		---
+  ```
 
 ###Categories
-Similar as Tag.
+Similar as Tags.
 
 ## Thanks
 * Theme template: [type-theme](https://github.com/rohanchandra/type-theme)

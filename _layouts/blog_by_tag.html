@@ -5,7 +5,7 @@ layout: default
   <article class="feature-image" >
   	<div style="background-image: url('{{ site.baseurl }}/{{ site.theme.place_holder_image }}')"/>
   	<header style="background-image: url('{{ site.imageurl }}')">
-    <h1 class="call-out-title">{{ page.tag }}</h1>
+    <h1 class="call-out-title">{{ page.title }}</h1>
     </header>
   </article>
 
@@ -21,8 +21,8 @@ layout: default
 		      </a>
 		    </h1>
 		    <p id="subtitletrans" class="subtitlecontainer">
-		      <a class="subtitle">{{ post.date | date: "%B %d, %Y" }}</a>
-		      {% if post.author %} | <a class="subtitle" href="{{ site.baseurl }}/about/">{{ post.author }}</a>{% endif %}
+		      <a class="subtitle">{{ post.date | date: "%Y年%m月%-d日" }}</a>
+		      {% if post.author %} | <a class="subtitle" href="{{ site.baseurl }}/About/">{{ post.author }}</a>{% endif %}
 		      {% if post.category and post.tags %} | <a class="subtitle">{{ category_content }}</a> <a class="subtitle">{{ tags_content }}</a>{% endif %}
 		    </p>
 		  </header>
@@ -43,11 +43,11 @@ layout: default
         {% endfor %}
 
     {% else %}
-        <div class="post-teaser">
-			<header>
-        		<h4>There are no posts for this category.</h4>
-        	</header>
-		</div>
+      <article>
+		<header>
+    		<h4 class="title">There are no posts for this tag.</h4>
+    	</header>
+      </article>
     {% endif %}
 </div>
 

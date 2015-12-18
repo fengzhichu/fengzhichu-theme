@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>404 | Unsplash Source</title>
+  <title>404 | {{ site.theme.title }}</title>
   <style>
     html,
     body {
@@ -144,9 +144,9 @@
   <div class="background-overlay"></div>
   <div class="header">
     <div class="container">
-      <a href="{{ site.baseurl }}/" title="Back to fengzhichu.com">
+      <a href="{{ site.baseurl }}/" title="Back to Home">
         <svg width="104px" height="104px" viewBox="0 20 212 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <title>Unsplash</title>
+            <title>{{ site.theme.title }}</title>
             <defs></defs>
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
                 <g id="365-photos-later" sketch:type="MSLayerGroup" transform="translate(1.000000, 0.000000)" fill="#FFFFFF">
@@ -169,9 +169,9 @@
 
           <div class="error-message">
             <p class="error-message__main">Oops! 没找到你想要的页面。</p>
-            <p class="error-message__sub">如果你认为是网站出错了，<a href="mailto:contact@fengzhichu.com">请联系我</a>。</p>
+            <p class="error-message__sub">如果你认为是网站出错了，<a href="mailto:{{ site.email_address }}">请联系我</a>。</p>
             <p class="error-message__main">Oops! Page not found.</p>
-            <p class="error-message__sub">if you think it's a mistake on our end, <a href="mailto:contact@fengzhichu.com">let me know what happened</a>.</p>
+            <p class="error-message__sub">if you think it's a mistake on our end, <a href="mailto:{{ site.email_address }}">let me know what happened</a>.</p>
           </div> <!-- close .error-message -->
         </div> <!-- close .container -->
 

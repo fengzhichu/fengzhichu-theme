@@ -15,10 +15,12 @@ hosted in [Github pages](https://pages.github.com/).
 ![About page](img/Screenshot5.png)
 
 ## How to use it
-* Fork the [repo](https://github.com/fengzhichu/fengzhichu-theme).
+* Star & Fork the [repo](https://github.com/fengzhichu/fengzhichu-theme).
 * Rename repo as 'yourusername.github.io'.
+* You can delete gh-pages branch if you want.
+* Clone your <b>master branch</b> to local directory
 * Custom the '_config.yml' to your style.
-* run jekyll serve -w.
+* Run jekyll serve -w.
 
 ## Customization
 
@@ -61,7 +63,7 @@ permalink: /blog/tag/github-pages/
   ```
 
 ###Categories
-Similar as Tag.
+Similar as Tags.
 
 ## Thanks
 * Theme template: [type-theme](https://github.com/rohanchandra/type-theme)

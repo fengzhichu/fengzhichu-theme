@@ -1,6 +1,6 @@
 ---
 layout: blog_by_category
-title: 'iOS'
+title: 'iOS开发'
 category: ios
-permalink: /blog/category/ios/
+permalink: /iOS/
 ---

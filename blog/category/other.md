@@ -1,6 +1,6 @@
 ---
 layout: blog_by_category
-title: 'Other'
+title: '其他'
 category: other
-permalink: /blog/category/other/
+permalink: /Other/
 ---
