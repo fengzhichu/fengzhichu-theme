@@ -8,6 +8,7 @@ echo "===================Ruby Version Manager======================"
 curl -L get.rvm.io | bash -s stable
 source $HOME/.bashrc
 source $HOME/.bash_profile
+rvm pkg install zlib --verify-downloads 1
 echo "Use the Taobao rvm and rubygems repalced default? Enter yes or input other skip"
 read use_taobao_ruby
 if [ "use_taobao_ruby" == "" ]; then
