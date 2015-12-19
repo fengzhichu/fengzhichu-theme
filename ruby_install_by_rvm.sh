@@ -45,7 +45,9 @@ else
     echo "===================Jekyll on github=========================="
     gem install jekyll jekyll-paginate github-pages
     jekyll -v
-    echo "cd you github.io dirctory, try run to `jekyll server` "
+    echo "if show jekyll not a command, add 'PATH=~/.rvm/gems/ruby-You_ruby_version/bin:\$PATH#for jekyll'\
+ in .bashrc last and donnot forget source it"
+    echo "cd you github.io dirctory, try run to 'jekyll server' "
 echo "END, HAVE FUN."
 fi
 exit 0
