@@ -20,6 +20,7 @@ hosted in [Github pages](https://pages.github.com/).
 * You can delete gh-pages branch if you want.
 * Clone your <b>master branch</b> to local directory.
 * Custom the '_config.yml' to your style.
+* Install jekyll can refer 'ruby_install_by_rvm.sh', modify to suit your need.
 * Run jekyll serve -w.
 
 ## Customization
