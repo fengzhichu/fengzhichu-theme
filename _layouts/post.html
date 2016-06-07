@@ -17,6 +17,17 @@ layout: default
 	{% if post.category and post.tags %} | <a class="subtitle">{{ category_content }}</a> <a class="subtitle">{{ tags_content }}</a>{% endif %}
     </p>
   </header>
+  
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+		jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+		tex2jax: {inlineMath: [['$','$']], displayMath: [['$$','$$']]}
+		});
+  </script>
+  <script type="text/javascript"
+    src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  
   <section class="post-content">
   {{ content }}
   </section>

@@ -48,7 +48,6 @@ theme:
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
-  katex: true # Enable if using math markup
 
   # Localization strings
   str_follow_on: "Follow on"
@@ -77,7 +76,7 @@ sechby:
   tag:   #with
 
 # BUILD SETTINGS
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 sass:
   sass_dir: _sass
