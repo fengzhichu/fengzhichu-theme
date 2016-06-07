@@ -12,7 +12,6 @@ theme:
   yoursitetitle: YOUR LOGO
   gravatar: # Email MD5 hash
   description: "used by search engines" # used by search engines
-  visiblewords: 300
   # Header and footer text
   header_text: >
      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
