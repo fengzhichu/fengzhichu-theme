@@ -25,7 +25,7 @@ hosted in [Github pages](https://pages.github.com/).
 
 ## Customization
 
-###_config.yml
+### _config.yml
 Some important configurations.
 * imageurl: Randomly change image which display on top of site.
   * By default image changes everytime when open your site or reflash it. If you want to change image daily or weekly, just append '/daily' or 'weekly' to imageurl.
@@ -38,7 +38,7 @@ Some important configurations.
   * tag: "with" #Words before Tag name.
   * example: Posted in 'Category name' with 'Tag name'.
 
-###Tags
+### Tags
 Add new tag.
 * Annotate your post entry front-matter block as usual:
 ```yml
