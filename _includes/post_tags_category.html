@@ -6,7 +6,7 @@
 	        {% endif %}
 	    {% endfor %}
 	    {% if category %}
-	        {% capture category_content %} {{ site.sechby.category }} <i class="fa fa-book"></i>: <a href="{{ site.baseurl }}/{{ category.name }}/">{{ category.name }}</a>{% endcapture %}
+	        {% capture category_content %} {{ site.sechby.category }} <i class="fa fa-book"></i>: <a href="{{ site.baseurl }}/{{ category.name }}/">{{ category.slug }}</a>{% endcapture %}
 	    {% endif %}
 	{% else %}
 	    {% assign category_content = '' %}

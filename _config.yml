@@ -12,7 +12,6 @@ theme:
   yoursitetitle: YOUR LOGO
   gravatar: # Email MD5 hash
   description: "used by search engines" # used by search engines
-  visiblewords: 300
   # Header and footer text
   header_text: >
      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -48,7 +47,6 @@ theme:
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
-  katex: true # Enable if using math markup
 
   # Localization strings
   str_follow_on: "Follow on"
@@ -77,8 +75,8 @@ sechby:
   tag:   #with
 
 # BUILD SETTINGS
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed

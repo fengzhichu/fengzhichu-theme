@@ -32,7 +32,6 @@ Some important configurations.
 * title: Display on browse tab.
 * hometitle: The first menu name of navigation bar.
 * yoursitetitle: Your LOGO place here.
-* visiblewords: Number of words which you want to display in post of homepage.
 * sechby:
   * category: "Posted in" #Words before Category name.
   * tag: "with" #Words before Tag name.
